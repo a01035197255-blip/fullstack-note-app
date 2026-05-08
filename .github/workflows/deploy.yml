@@ -2,7 +2,7 @@ name: Full-Stack Deploy
  
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
  
 env:
