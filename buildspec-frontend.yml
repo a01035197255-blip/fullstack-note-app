@@ -1,5 +1,10 @@
 version: 0.2
 
+
+env:
+  variables:
+    NEXT_PUBLIC_API_URL: "note-app-backend-prod.eba-33sku7az.ap-northeast-2.elasticbeanstalk.com"
+
 phases:
   install:
     runtime-versions:
